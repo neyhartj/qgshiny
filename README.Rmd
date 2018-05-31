@@ -11,6 +11,8 @@ knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.path = "README-",
 
 # qgshiny
 
+[![Travis-CI Build Status](https://travis-ci.org/neyhartj/qgshiny.svg?branch=master)](https://travis-ci.org/neyhartj/qgshiny)
+
 ## Author
 
 Jeff Neyhart
