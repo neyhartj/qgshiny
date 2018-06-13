@@ -5,3 +5,4 @@
 ^theory\.Rmd$
 ^teaching_materials/*$
 ^cran-comments\.md$
+^rsconnect/$

@@ -4,3 +4,4 @@
 .Ruserdata
 teaching_materials/*.Rmd
 cran-comments.md
+rsconnect/*
