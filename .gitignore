@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 inst/shiny-examples/app/rsconnect/*
+*.Rproj
+theory.Rmd
+README.Rmd
