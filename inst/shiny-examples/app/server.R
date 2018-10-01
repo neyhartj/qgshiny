@@ -166,7 +166,7 @@ shinyServer(function(input, output) {
 
     ## Add a legend
     legend(x = "topright", legend = c(expression(bold(V[A])), expression(bold(V[D])), expression(bold(V[G]))),
-           col = c(rev(colors), "black"), lwd = 2)
+           col = c(colors, "black"), lwd = 2)
 
   })
 

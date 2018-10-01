@@ -38,6 +38,7 @@ To run the Shiny App locally, load the `qgshiny` package and use the `run_exampl
 
 <!-- ## Teaching Material -->
 <!-- I have written a lab worksheet to accompany the shiny app. You may access the PDF [here](https://github.com/neyhartj/qgdemo/raw/master/teaching_materials/qgdemo_problem_set.pdf) and a copy of the intendend answer key [here](https://github.com/neyhartj/qgdemo/raw/master/teaching_materials/qgdemo_problem_set_answers.pdf). -->
+
 Support and Feature Requests
 ----------------------------
 

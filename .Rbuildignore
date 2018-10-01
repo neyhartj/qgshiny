@@ -1,8 +1,2 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.travis\.yml$
-^README\.Rmd$
-^theory\.Rmd$
-^teaching_materials/*$
-^cran-comments\.md$
-^rsconnect/$
