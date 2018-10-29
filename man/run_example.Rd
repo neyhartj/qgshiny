@@ -4,7 +4,11 @@
 \alias{run_example}
 \title{Run the application}
 \usage{
-run_example()
+run_example(display.mode = c("normal", "showcase"))
+}
+\arguments{
+\item{display.mode}{The mode in which to display the application. If \code{"showcase"}, application code is
+diplayed along with the output. If \code{"normal"} (default), the code is hidden.}
 }
 \description{
 Run the Shiny Application

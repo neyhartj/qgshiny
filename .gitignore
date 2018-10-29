@@ -6,3 +6,4 @@ inst/shiny-examples/app/rsconnect/*
 *.Rproj
 theory.Rmd
 README.Rmd
+teaching_materials/*
