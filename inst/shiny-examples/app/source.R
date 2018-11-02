@@ -73,9 +73,6 @@ simpop <- function(p, N, t, f = c("0" = 1, "1" = 1, "2" = 1), reps = 1) {
 # Simulate a breeding population
 simbreed <- function(p, N, t, h, L, i, a) {
 
-  # Determine the max genetic value
-  max_G <- sum(a)
-
   # Initial generation number
   t_i <- 1
 
@@ -95,7 +92,7 @@ simbreed <- function(p, N, t, h, L, i, a) {
 
   # Calculate the genotypic value
   # Scale by the maximum genotype value posible
-  G_i <- ((pop_i - 1) %*% a ) / max_G
+  G_i <- (pop_i - 1) %*% a
   varG <- var(G_i)
 
   # Calculate the non-genetic variance
@@ -141,7 +138,7 @@ simbreed <- function(p, N, t, h, L, i, a) {
     p_mat[t_i, ] <- p_i
 
     # Calculate the genotypic value and standardize to the number of genes
-    G_i <- ((pop_i - 1) %*% a) / max_G
+    G_i <- ((pop_i - 1) %*% a)
     varG <- var(G_i)
 
 
@@ -172,11 +169,15 @@ simbreed <- function(p, N, t, h, L, i, a) {
 
   }
 
+  # Standardize the genotypic values
+  G_stand <- scale(G_vec, center = G_vec[1], scale = sqrt(varG_vec[1]))
+
+
   # Output a data.frame
   data.frame(
     gen = seq(t),
     p = p_mat,
-    G = G_vec,
+    G = as.numeric(G_stand),
     varG = varG_vec,
     P = P_vec
   )

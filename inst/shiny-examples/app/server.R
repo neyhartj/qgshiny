@@ -273,7 +273,7 @@ shinyServer(function(input, output) {
 
     # Plot
     plot(NA, type = "l", main = "Genotypic Value", ylab = "Standardized Genotypic Value",
-         xlab = "Generation", ylim = c(-1, 1), xlim = c(1, length(gen)))
+         xlab = "Generation", ylim = c(-1, 7), xlim = c(1, length(gen)))
 
     # If resp_out_old is present, add the previous results and a legend
     if (exists("resp_out_old")) {
@@ -291,7 +291,7 @@ shinyServer(function(input, output) {
 
     # Plot
     plot(NA, type = "l", main = "Genetic Variance", ylab = "Standardized Genetic Variance",
-         xlab = "Generation", ylim = c(0, 0.05), xlim = c(1, length(gen)))
+         xlab = "Generation", ylim = c(0, 5), xlim = c(1, length(gen)))
 
     # If resp_out_old is present, add the previous results
     if (exists("resp_out_old")) {
@@ -309,6 +309,7 @@ shinyServer(function(input, output) {
     # Plot for allele frequencies
     plot(NA, type = "l", main = "Allele Frequencies",
          ylab = "Frequency", xlab = "Generation", ylim = c(0, 1), xlim = c(1, length(gen)))
+    legend("bottomleft", legend = c("Small effect", "Large effect"), lwd = range(a_bin) / 2)
 
     # Iterate over allele frequencies
     for (l in seq(resp_out$L)) {
@@ -316,6 +317,7 @@ shinyServer(function(input, output) {
       lines(x = gen, y = freq[,l], lwd = a_bin[l] / 2)
 
     }
+
 
     # # Add a legend plot
     # plot(NA, ylim = c(-1, 1), xlim = c(-1, 1))
