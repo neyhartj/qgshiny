@@ -273,7 +273,7 @@ shinyServer(function(input, output) {
 
     # Plot
     plot(NA, type = "l", main = "Genotypic Value", ylab = "Standardized Genotypic Value",
-         xlab = "Generation", ylim = c(-1, 7), xlim = c(1, length(gen)))
+         xlab = "Generation", ylim = c(-1, 10), xlim = c(1, length(gen)))
 
     # If resp_out_old is present, add the previous results and a legend
     if (exists("resp_out_old")) {
