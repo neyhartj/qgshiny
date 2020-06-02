@@ -4,7 +4,7 @@
 #' Run the Shiny Application
 #'
 #' @param display.mode The mode in which to display the application. If \code{"showcase"}, application code is
-#' diplayed along with the output. If \code{"normal"} (default), the code is hidden.
+#' displayed along with the output. If \code{"normal"} (default), the code is hidden.
 #'
 #' @import shiny
 #'

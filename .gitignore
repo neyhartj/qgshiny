@@ -7,3 +7,4 @@ inst/shiny-examples/app/rsconnect/*
 theory.Rmd
 README.Rmd
 teaching_materials/*
+rsconnect/*
