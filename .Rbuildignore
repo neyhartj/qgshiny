@@ -6,3 +6,4 @@
 ^teaching_materials$
 ^\.travis\.yml$
 ^rsconnect/*$
+^CRAN-RELEASE$

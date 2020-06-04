@@ -6,11 +6,16 @@
 #' @param display.mode The mode in which to display the application. If \code{"showcase"}, application code is
 #' displayed along with the output. If \code{"normal"} (default), the code is hidden.
 #'
+#' @examples
+#' \dontrun{
+#'  run_qgshiny()
+#' }
+#'
 #' @import shiny
 #'
 #' @export
 #'
-run_example <- function(display.mode = c("normal", "showcase")) {
+run_qgshiny <- function(display.mode = c("normal", "showcase")) {
 
   # Look for the shiny application
   app_dir <- system.file("shiny-examples", "app", package = "qgshiny")

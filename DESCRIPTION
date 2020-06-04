@@ -1,6 +1,6 @@
 Package: qgshiny
 Type: Package
-Title: A Shiny App for learning introductory quantitative genetics
+Title: A Shiny App for Active Learning Instruction for Introductory Quantitative Genetics
 Version: 0.1.0
 Author: Jeffrey L. Neyhart
 Maintainer: Jeffrey L. Neyhart <neyhartje@gmail.com>
