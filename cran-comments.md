@@ -2,7 +2,7 @@
 This is a resubmission. In this version I have:
 
 * Edited author information in the DESCRIPTION to reflect proper notation.
-* Edited the help file for the function 'run_qgshiny' to remove examples wrapped in "\dontrun{}"
+* Edited the help file for the function 'run_qgshiny' to replace examples wrapped in "\dontrun{}" with "if(interactive()){}"
 
 
 

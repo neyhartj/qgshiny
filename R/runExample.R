@@ -7,7 +7,7 @@
 #' displayed along with the output. If \code{"normal"} (default), the code is hidden.
 #'
 #' @examples
-#' \dontrun{
+#' if (interactive()) {
 #'  run_qgshiny()
 #' }
 #'

@@ -14,7 +14,7 @@ displayed along with the output. If \code{"normal"} (default), the code is hidde
 Run the Shiny Application
 }
 \examples{
-\dontrun{
+if (interactive()) {
  run_qgshiny()
 }
 

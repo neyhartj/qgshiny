@@ -38,12 +38,16 @@ To run the Shiny App locally, load the `qgshiny` package and use the
 
     library(qgshiny)
     
-    run_example()
+    run_qgshiny()
 
 ### shinyapps.io deployment
 
 This application may also be accessed remotely from the shinyapps.io
 platform [here](https://neyhartj.shinyapps.io/qgshiny/)
+
+<!-- ## Read More -->
+
+<!-- The development of `qgshiny` is described in detail in a paper submitted to the journal *Natural Sciences Education*, available [here]. -->
 
 <!-- ## Teaching Material -->
 
