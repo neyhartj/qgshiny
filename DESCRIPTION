@@ -1,16 +1,20 @@
 Package: qgshiny
-Type: Package
 Title: A Shiny App for Active Learning Instruction for Introductory Quantitative Genetics
 Version: 0.1.0
-Author: Jeffrey L. Neyhart
-Maintainer: Jeffrey L. Neyhart <neyhartje@gmail.com>
+Authors@R: 
+    person(given = "Jeffrey",
+           family = "Neyhart",
+           role = c("aut", "cre"),
+           email = "neyhartje@gmail.com",
+           comment = c(ORCID = "0000-0002-1991-5310"))
 Description: A Shiny Application for teaching introductory quantitative genetics
     and plant breeding through interactive simulations.
 License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
 Imports:
     stats,
     shiny,
     rmarkdown
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.0

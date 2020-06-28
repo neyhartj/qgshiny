@@ -1,9 +1,8 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Changed the name of the function from "run_example" to "run_qgshiny"
-
-* Added an example of running said function.
+* Edited author information in the DESCRIPTION to reflect proper notation.
+* Edited the help file for the function 'run_qgshiny' to remove examples wrapped in "\dontrun{}"
 
 
 
