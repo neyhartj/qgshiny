@@ -1,7 +1,7 @@
 #' Run the application
 #'
 #' @description
-#' Run the Shiny Application
+#' Runs the 'shiny' application interactively.
 #'
 #' @param display.mode The mode in which to display the application. If \code{"showcase"}, application code is
 #' displayed along with the output. If \code{"normal"} (default), the code is hidden.

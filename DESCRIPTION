@@ -1,5 +1,5 @@
 Package: qgshiny
-Title: A Shiny App for Active Learning Instruction for Introductory Quantitative Genetics
+Title: A 'shiny' Application for Active Learning Instruction in Introductory Quantitative Genetics
 Version: 0.1.0
 Authors@R: 
     person(given = "Jeffrey",
@@ -7,8 +7,10 @@ Authors@R:
            role = c("aut", "cre"),
            email = "neyhartje@gmail.com",
            comment = c(ORCID = "0000-0002-1991-5310"))
-Description: A Shiny Application for teaching introductory quantitative genetics
-    and plant breeding through interactive simulations.
+Description: A 'shiny' application for teaching introductory quantitative genetics
+    and plant breeding through interactive simulations. The application relies on 
+    established plant breeding and quantitative genetic theory found in 
+    Falconer and Mackay (1996, ISBN:0582243025) and Bernardo (2010, ISBN:978-0972072427).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
