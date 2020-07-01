@@ -11,7 +11,7 @@ run_qgshiny(display.mode = c("normal", "showcase"))
 displayed along with the output. If \code{"normal"} (default), the code is hidden.}
 }
 \description{
-Run the Shiny Application
+Runs the 'shiny' application interactively.
 }
 \examples{
 if (interactive()) {
